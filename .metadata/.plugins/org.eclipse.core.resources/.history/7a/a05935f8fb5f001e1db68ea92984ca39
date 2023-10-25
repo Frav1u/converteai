@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Converte aí</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+<body>
+	<header>
+	<a>Converte Aí</a>
+	
+		<nav>
+			<ul class="menu">
+				<li><a href="home.html">Home</a></li>
+				<li>  |  </li>
+				<li><a href="decimalParaBinario.html">Decimal → Binario, Hexadecimal e Octa</a></li>
+				<li>  |  </li> 
+				<li><a href="imc.html">IMC</a></li>
+				<li>  |  </li>
+				<li><a href="calculadora.html">Calculadora</a></li>
+			</ul>			
+		</nav>
+		<ul class="conta">
+			<li>Login</li>
+			<li>Minha Conta</li>
+		</ul>
+	</header>
+	<main>
+		<h1 class="tituloProposito">Nosso Proposito: </h1>
+		<p class="proposito">Nosso proposito é ajudar as pessoas no seu dia a dia, na vida academica ou profissional com uma plataforma ampla e com usabilidade amigavel.</p>
+		<h2> Proximos Updates :</h2>
+		<ul class="updates">
+			<li>Conversor de Moedas</li>
+			<li>Conversor de Medidas</li>
+			<li>Calculadora de Bytes</li>
+		</ul>
+	</main>
+	
+	
+	<footer>
+		<a>Contatos : </a>
+		<ul class="contatos">
+			<li>Email</li>
+			<li>Telefone</li>
+			<li>Instagram</li>
+			<li>Twitter</li>
+		</ul>
+		
+	</footer>
+</body>
+
+</html>

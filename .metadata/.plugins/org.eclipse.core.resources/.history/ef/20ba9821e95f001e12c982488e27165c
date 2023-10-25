@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Apotek Bold', monospace;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+}
+
+
+
+main{
+	height: 860px;
+}
+
+a{font-size: 18px;
+	margin: 10px;
+
+
+}
+
+.menu{
+	color: white;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 50px;
+	
+}
+
+.tituloProposito{
+	margin-top: 30px;
+	margin-left: 50px;
+	
+}
+
+
+.proposito{
+	margin-top: 15px;
+	margin-left: 50px;
+	
+}
+
+li{
+	font-size: 14px;
+	margin-left: 20px;
+	
+}
+
+header{
+	background-color: hsl(183, 100%, 15%);
+	color: white;
+	height: 80px;
+
+}
+
+.contatos{
+	display: flex;
+}
+
+footer{
+	background-color: hsl(183, 100%, 15%);
+	color: white;
+	height: 100px;
+	
+}
+
+conversorBase{
+	    display: flex;
+    justify-content: center;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+

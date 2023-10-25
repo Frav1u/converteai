@@ -1,0 +1,109 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+
+pageEncoding="ISO-8859-1"%>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="ISO-8859-1">
+
+<title>Insert title here</title>
+
+</head>
+
+<body>
+<header>
+			<a>Converte Aí</a>
+		<nav>	
+			<ul class="menu">
+				<li><a href="home.html">Home</a></li>
+				<li>  |  </li>
+				<li><a href="decimalParaBinario.html">Decimal → Binario, Hexadecimal e Octa</a></li>
+				<li>  |  </li> 
+				<li><a href="imc.html">IMC</a></li>
+				<li>  |  </li>
+				<li><a href="calculadora.html">Calculadora</a></li>
+			</ul>
+			<ul class="conta">
+			<li>Login</li>
+			<li>Minha Conta</li>
+		</ul>
+		</nav>
+	</header>
+	<main>
+		<h1 class="tituloProposito">Nosso Proposito: </h1>
+		<p class="proposito">Nosso proposito é ajudar as pessoas no seu dia a dia, na vida academica ou profissional com uma plataforma ampla e com usabilidade amigavel.</p>
+		
+	</main>
+	
+	
+	<footer>
+		<a>contatos: </a>
+		<ul class="contatos">
+			<li>Email</li>
+			<li>Telefone</li>
+			<li>Instagram</li>
+			<li>Twitter</li>
+		</ul>
+		
+	</footer>
+
+<h1>Relatorio Cadastro </h1>
+
+<%
+
+out.print("peso informada foi:");
+
+%>
+
+<%
+
+out.print(request.getParameter("peso"));
+
+%>
+
+<p></p>
+
+<%
+
+out.print("altura informada foi:");
+
+%>
+
+<%
+
+out.print(request.getParameter("altura"));
+
+%>
+
+<p></p>
+
+<%
+
+String peso = request.getParameter("peso");
+
+String altura = request.getParameter("altura");
+
+
+
+float valorpeso = Float.parseFloat(peso);
+
+float valoraltura = Float.parseFloat(altura);
+
+
+float resultado = valorpeso / (valoraltura * valoraltura);
+
+
+
+out.print("Resultado:" + resultado);
+
+
+%>
+
+
+</body>
+
+</html>

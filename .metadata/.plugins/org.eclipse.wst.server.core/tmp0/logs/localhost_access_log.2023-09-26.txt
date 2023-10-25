@@ -1,0 +1,8 @@
+127.0.0.1 - - [26/Sep/2023:15:29:02 -0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:15:29:03 -0300] "GET /ConverteAi/home.html HTTP/1.1" 200 1085
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:15:29:03 -0300] "GET /ConverteAi/style.css HTTP/1.1" 200 865
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:15:29:03 -0300] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:15:30:43 -0300] "GET /ConverteAi/home.html HTTP/1.1" 200 1085
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:15:30:46 -0300] "GET /ConverteAi/decimalParaBinario.html HTTP/1.1" 200 1572
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:15:31:33 -0300] "GET /ConverteAi/home.html HTTP/1.1" 200 1084
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:15:31:51 -0300] "GET /ConverteAi/home.html HTTP/1.1" 304 -

@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Apotek Bold', monospace;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+}
+
+body{
+	background-color: #CFE4BC;
+}
+
+
+main{
+	height: 860px;
+	background-color: #CFE4BC;
+}
+
+a{font-size: 18px;
+	margin: 10px;
+
+
+}
+
+.menu{
+	color: white;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 50px;
+	
+}
+
+.tituloProposito{
+	margin-top: 30px;
+	margin-left: 50px;
+	
+}
+
+
+.proposito{
+	margin-top: 15px;
+	margin-left: 50px;
+	
+}
+
+li{
+	font-size: 14px;
+	margin-left: 20px;
+	
+}
+
+header{
+	background-color: #20331C;
+	color: white;
+	height: 80px;
+	text-decoration: none;
+    color: inherit;
+    display: flex;
+}
+
+.contatos{
+	display: flex;
+}
+
+footer{
+	background-color: #20331C;
+	color: white;
+	height: 100px;
+	
+}
+
+conversorBase{
+	display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.caixa{
+	height: 300px;
+	width: 300px;
+	background-color: #CFE4BC;
+	border: 2px solid black;
+}

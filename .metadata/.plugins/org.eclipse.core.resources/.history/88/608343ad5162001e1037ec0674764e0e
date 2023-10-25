@@ -1,0 +1,9 @@
+
+
+
+function printar() {
+	var nomeCompleto =document.getElementById("nome").value;
+	var nomeCompleto =document.getElementById("email").value;
+	var nomeCompleto =document.getElementById("senha").value;
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>Decimal Para Binario</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styleimc.css">
+</head>
+<body>
+		<header>
+			<img class="img" src="logo.png">
+		<nav>			
+			<ul class="menu">
+				<li><a href="home.html">Home</a></li>
+				<li>  |  </li>
+				<li><a href="decimalParaBinario.html">Decimal → Binario, Hexadecimal e Octa</a></li>
+				<li>  |  </li> 
+				<li><a href="imc.html">IMC</a></li>
+				<li>  |  </li>
+				<li><a href="calculadora.html">Calculadora</a></li>
+			</ul>
+		</nav>
+			<ul class="conta">
+			<li>Login</li>
+			<li>Criar Conta</li>
+		</ul>
+	</header>
+	
+	<main>
+		<title>Calculadora de IMC</title>
+
+</head>
+
+<body>
+<div class="caixa">
+<form action = "receber.jsp">
+	<ul>
+		<li class="li1">Informe seu Peso:</li>
+		<input type="text" id="peso" name="peso">
+		<li class="li1">Informe seu Altura:</li>
+		<input type="text" id="altura" name="altura">
+	</ul>
+		<input type ="submit" value = "Enviar">
+</form>	
+</div>	
+	</main>
+	
+	<footer>
+		<ul class="contatos">
+			<li>Email</li>
+			<li>Telefone</li>
+			<li>Instagram</li>
+			<li>Twitter</li>
+		</ul>
+		
+	</footer>
+</body>
+
+</html>

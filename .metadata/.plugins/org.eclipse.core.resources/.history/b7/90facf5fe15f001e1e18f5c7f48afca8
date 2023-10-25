@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>Decimal Para Binario</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<header>
+		<a>Converte Aí</a>
+		<nav>
+			<ul class="menu">
+				<l>Home</l>
+				<li>  |  </li>
+				<li><a href="decimalParaBinario.html">Decimal → Binario, Hexadecimal e Octa</a></li>
+				<li>  |  </li> 
+				<li>IMC</li>
+				<li>  |  </li>
+				<li>Moedas</li>
+				<li>  |  </li>
+				<li>Calculadora</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="conversorBase">
+	    <ul>
+        <li class="inputs">
+            <p class="infoInput">Informe um numéro em base decimal :</p>
+            <input type="text" class="entrada" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+            <button type="button"class="converter" id="converter">CONVERTER</button>
+        </li>
+        <li class="outputs">
+            <p class="infoHexa">HEXADECIMAL :</p>
+            <p class="resultadoHexa" id="resultadoHexa"></p>
+            <p class="infoBinario">BINÁRIO :</p>
+            <p class="resultadoBinario" id="resultadoBinario"></p>
+            <p class="infoOctal">OCTAL :</p>
+            <p class="resultadoOctal" id="resultado"></p>
+            </ul>
+        </li>
+	</main>
+	
+	
+	<footer>
+		<a>contatos: </a>
+		<ul class="contatos">
+			<li>Email</li>
+			<li>Telefone</li>
+			<li>Instagram</li>
+			<li>Twitter</li>
+		</ul>
+		
+	</footer>
+</body>
+
+</html>

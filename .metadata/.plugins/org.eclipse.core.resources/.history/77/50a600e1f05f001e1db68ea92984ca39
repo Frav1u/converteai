@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Apotek Bold', monospace;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none;
+    color:black;
+}
+
+body{
+	background-color:  ghostwhite
+}
+
+li{
+	font-size: 14px;
+	margin-left: 20px;
+	
+}
+
+header{
+	background-color: hsl(183, 100%, 15%);
+	color: white;
+	height: 80px;
+	list-style: none;
+    color: inherit;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos{
+	display: flex;
+}
+
+footer{
+	background-color: hsl(183, 100%, 15%);
+	color: white;
+	height: 100px;
+	
+}
+.proposito{
+	margin-top: 15px;
+	margin-left: 50px;
+	
+}
+.menu{
+	color: white;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 50px;
+	
+}
+
+.menu a {
+	color: white;
+	font-size: 16px;
+	list-style: none;
+}
+
+.tituloProposito{
+	margin-top: 30px;
+	margin-left: 50px;
+	
+}
+
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

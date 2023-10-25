@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>Decimal Para Binario</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="descparabina.css">
+</head>
+<body>
+		<header>
+		
+<svg id="Camada_18" class="logo" data-name="Camada 18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1526.98 443.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #20331c;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #56af31;
+      }
+
+      .cls-4 {
+        fill: #00a54e;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-14.72" y="-50.72" width="1559.49" height="563.74"/>
+  <path class="cls-3" d="m68.18,220.52l9.05-15.59,56.42,70.31c.94,1.17,2.37,1.82,3.86,1.77l23.85.47-.19,21.91-26.67.48-66.34-79.33Z"/>
+  <path class="cls-2" d="m209.09,246.77c5.24,0,9.48,4.25,9.48,9.48v43.99c0,26.34-10.78,51.08-47.89,51.08h-73.43c-30.33,0-48.29-16.36-48.29-50.28v-163.22c0-33.52,17.56-45.89,45.89-45.89h76.22c36.32,0,47.49,18.36,47.49,53.48v53.82c0,1.34-.65,2.6-1.74,3.38l-27.58.31-26.2-.33c-1.21-.76-1.95-2.09-1.95-3.52v-52.81c0-1.13-.92-2.05-2.05-2.05h-24.92c-.93,0-1.74.63-1.98,1.53l-60.48,76.49v1.11s61.7,74.56,61.7,74.56c.47.67,1.22,1.36,1.99,1.56h23.68c1.13,0,2.05-.92,2.05-2.05v-41.15c0-5.24,4.25-9.48,9.48-9.48h38.5Z"/>
+  <path class="cls-2" d="m244.31,300.74v-156.8c0-32.8,16.35-52.4,43.45-52.4h45.85c31.49,0,45.85,19.6,45.85,53.2v155.2c0,33.2-15.15,51.6-44.25,51.6h-47.44c-26.31,0-43.45-17.2-43.45-50.8Zm82.13,1.6v-161.2h-29.1v161.2h29.1Z"/>
+  <path class="cls-2" d="m474.19,351.1l-19.14-76.94c-6.38-23.12-13.55-66.98-19.93-107.24,1.6,37.08,3.19,75.35,3.19,94.09v90.1h-43.85V91.97h62.19l23.12,96.88c7.57,29.5,15.95,75.75,22.72,113.22-2.39-33.09-4.78-69.37-4.78-93.69v-116.41h43.85v259.13h-67.38Z"/>
+  <path class="cls-2" d="m623.24,293.69h4.78l17.54-201.72h53.82l-32.29,259.13h-84.12l-30.7-259.13h53.82l17.14,201.72Z"/>
+  <path class="cls-2" d="m715.48,91.97h111.23v49.43h-57.81v56.61h41.86v48.64h-41.86v55.41l175.95.05h10.42c.93,0,1.74.63,1.98,1.53l5.86,22.21c.25.96.25,1.97,0,2.93l-5.48,20.79c-.24.9-1.05,1.53-1.98,1.53h-240.18V91.97Z"/>
+  <path class="cls-2" d="m848.19,292.81V91.99h76.31c19.15,0,26.57,10.5,26.57,36.77v65.81c0,18.85-4.02,29.35-13.9,33.68l16.99,64.57h-41.4l-15.45-59.94h-7.73v59.94h-41.4Zm62.1-97.63v-64.88h-20.7v64.88h20.7Z"/>
+  <path class="cls-2" d="m1006.04,116.93h-41.86v-55.49h137.14v55.49h-41.46v235.38h-53.82V116.93Z"/>
+  <path class="cls-2" d="m1080.21,134.49h92.76v41.23h-48.21v47.21h34.91v40.56h-34.91v46.21h48.21v40.9h-92.76v-216.11Z"/>
+  <path class="cls-2" d="m1342.22,303.51h-32.07l-4.01,48.1h-54.11l27.66-260.54h94.2l26.46,260.54h-54.11l-4.01-48.1Zm-28.06-48.1h24.45l-9.22-114.24h-6.01l-9.22,114.24Z"/>
+  <path class="cls-2" d="m1423.62,82.06l16.83-48.15h59.89l-31.71,48.15h-45.02Zm1.17,14.09h56.76v254.43h-56.76V96.15Z"/>
+  <polygon class="cls-4" points="1489.81 33.89 1461.21 82.14 1468.64 82.05 1500.36 33.89 1489.81 33.89"/>
+</svg>			
+		<nav>
+			<ul class="menu">
+				<li><a href="home.html">Home</a></li>
+				<li>  |  </li>
+				<li><a href="decimalParaBinario.html">Decimal → Binario, Hexadecimal e Octa</a></li>
+				<li>  |  </li> 
+				<li><a href="imc.html">IMC</a></li>
+				<li>  |  </li>
+				<li><a href="calculadora.html">Calculadora</a></li>
+			</ul>
+		</nav>
+			<ul class="conta">
+			<li>Login</li>
+			<li>Minha Conta</li>
+		</ul>
+	</header>
+	<main class="conversorBase">
+		<div class="caixa">
+	    <ul class="ulconversor">
+        <li class="inputs">
+            <p class="infoInput">Informe um numéro em base decimal :</p>
+            <input type="text" class="entrada" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+            <button type="button"class="converter" id="converter">CONVERTER</button>
+        </li>
+        <li class="outputs">
+            <p class="infoHexa">HEXADECIMAL :</p>
+            <p class="resultadoHexa" id="resultadoHexa"></p>
+            <p class="infoBinario">BINÁRIO :</p>
+            <p class="resultadoBinario" id="resultadoBinario"></p>
+            <p class="infoOctal">OCTAL :</p>
+            <p class="resultadoOctal" id="resultado"></p>
+            </ul>
+        </li>
+        </div>
+	</main>
+	
+	
+	<footer>
+		<a>contatos: </a>
+		<ul class="contatos">
+			<li>Email</li>
+			<li>Telefone</li>
+			<li>Instagram</li>
+			<li>Twitter</li>
+		</ul>
+		
+	</footer>
+	 <script src="conversorlogica.js"></script>
+</body>
+
+</html>

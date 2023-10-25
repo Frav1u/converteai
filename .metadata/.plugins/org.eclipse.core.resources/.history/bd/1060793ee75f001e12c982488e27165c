@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>Decimal Para Binario</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<header>
+		<a>Converte Aí</a>
+		<nav>
+			<ul class="menu">
+				<li><a href="home.html">Home</a></li>
+				<li>  |  </li>
+				<li><a href="decimalParaBinario.html">Decimal → Binario, Hexadecimal e Octa</a></li>
+				<li>  |  </li> 
+				<li><a href="imc.html">IMC</></li>
+				<li>  |  </li>
+				<li><a href="calculadora.html">Calculadora</a></li>
+			</ul>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<title>Calculadora de IMC</title>
+
+</head>
+
+<body>
+
+<%
+
+String mensagem = "Bem Vindo!";
+
+%>
+
+<%
+
+out.print("Informe seu peso e altura para descobrir seu Índice de Massa Corporal (IMC)");
+
+%>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+<form action = "receber.jsp">
+
+<%
+
+out.print("Informe seu Peso:");
+
+%>
+
+<input type="text" id="peso" name="peso">
+
+
+<%
+
+out.print("Informe Sua Altura:(usar o .)");
+
+%>
+
+<input type="text" id="altura" name="altura">
+
+
+<input type ="submit" value = "Enviar">
+
+
+
+
+</form>
+		
+		
+		
+	</main>
+
+	
+	<footer>
+		<a>contatos: </a>
+		<ul class="contatos">
+			<li>Email</li>
+			<li>Telefone</li>
+			<li>Instagram</li>
+			<li>Twitter</li>
+		</ul>
+		
+	</footer>
+</body>
+
+</html>

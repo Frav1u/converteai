@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Converte aí</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="cadastro.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icone-removebg-preview.png">
+</head>
+
+<body>
+    <header>
+        <a href="home.html"><img class="img" src="logo.png"></a>
+        <ul class="conta">
+            <li><a href="login.html" style="color: white;">Login</a></li>
+            <li><a href="cadastro.html" style="color:white">Criar Conta</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="caixa">
+        
+        	
+        			<p>Sua conta foi Criada</p>
+        			<input type="reset" value="Home"></input><br><br>
+                    <input type="submit" value="Ver informações da Conta"></input>
+        			
+        			
+                                   
+                
+    </main>
+	<footer>
+		<ul class="contatos">
+			<li>Email</li>
+			<li>Telefone</li>
+			<li>Instagram</li>
+			<li>Twitter</li>
+		</ul>
+		
+	</footer>
+</body>
+
+</html>
